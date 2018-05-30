@@ -1,0 +1,35 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "echo",
+            "type": "shell",
+            "command": "g++ z1.cpp -o z1.cpp ",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "echo",
+            "type": "shell",
+            "command": "g++ z2.cpp -o z2 ",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "echo",
+            "type": "shell",
+            "command": "g++ z12.cpp -o z12 ",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        
+    ]
+}
